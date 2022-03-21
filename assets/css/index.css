@@ -4,7 +4,8 @@
     --bg1: rgb(35, 39, 42);
     --border1: #E44D26;
     --border2: #2965F1;
-    --shadow: #555555;
+    --shadow: #4b4b4b;
+    --shadow-color: #4b4b4b;
     --text-hover: #E44D26;
 }
 
@@ -76,6 +77,10 @@ main {
     margin-right: 5px;
     padding: 10px;
     background-color: var(--bg1);
+}
+
+main p {
+    text-align: justify;
 }
 
 aside {
@@ -158,6 +163,7 @@ header, main, aside, footer, .headerImg {
 .navItems a:hover, .socialItems li a:hover {
     transition: 0.5s;
     background-color: var(--text-hover);
+    box-shadow: 0 0 10px var(--shadow-color);
 }
 
 
